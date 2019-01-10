@@ -1,0 +1,29 @@
+.form {
+  margin: 20px;
+}
+
+.form input {
+  display: block;
+  margin-top: 5px;
+  margin-bottom: 5px;
+  width: 100%;
+}
+
+.jumbotron {
+  background-image: url("images/starring.png");
+  color: #ffd700;
+  text-align: center;
+}
+
+#headerbar {
+  overflow: hidden;
+  height: 50px;
+  background-color: #ffd700;
+  position: fixed;
+  top: 0;
+  width: 100%;
+}
+
+.scores {
+  margin: 10px;
+}
