@@ -28,12 +28,30 @@ class Form extends Component {
         this.state: "clicked"
       });
     score += 1;
+    shuffle();
     } else if (this.state === "clicked") {
       alert("You Lose!");
       reset();
     };
 
   };
+
+    function shuffle(){
+        $(".shuffledv").each(function(){
+            var divs = $(this).find('div');
+            for(var i = 0; i < divs.length; i++) $(divs[i]).remove();            
+            var i = divs.length;
+            if ( i == 0 ) return false;
+            while ( --i ) {
+               var j = Math.floor( Math.random() * ( i + 1 ) );
+               var tempi = divs[i];
+               var tempj = divs[j];
+               divs[i] = tempj;
+               divs[j] = tempi;
+             }
+            for(var i = 0; i < divs.length; i++) $(divs[i]).appendTo(this);
+        });                    
+    };
 
 
   render() {
