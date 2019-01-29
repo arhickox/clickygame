@@ -1,0 +1,62 @@
+[
+  {
+    "id": 1,
+    "image": "/assets/anakin.jpg",
+    "clicked": false
+  },
+  {
+    "id": 2,
+    "image": "/assets/chewie.png",
+    "clicked": false
+  },
+  {
+    "id": 3,
+    "image": "/assets/finn.jpg",
+    "clicked": false
+  },
+  {
+    "id": 4,
+    "image": "/assets/han.jpg",
+    "clicked": false
+  },
+  {
+    "id": 5,
+    "image": "/assets/kenobi.jpg",
+    "clicked": false
+  },
+  {
+    "id": 6,
+    "image": "/assets/kylo.jpg",
+    "clicked": false
+  },
+  {
+    "id": 7,
+    "image": "/assets/images/leia.jpg",
+    "clicked": false
+  },
+  {
+    "id": 8,
+    "image": "/assets/images/luke.jpg",
+    "clicked": false
+  },
+  {
+    "id": 9,
+    "image": "/assets/images/maul.jpg",
+    "clicked": false
+  },
+  {
+    "id": 10,
+    "image": "/assets/images/poe.jpg",
+    "clicked": false
+  },
+  {
+    "id": 11,
+    "image": "/assets/images/rey.png",
+    "clicked": false
+  },
+  {
+    "id": 12,
+    "image": "/assets/images/vader.jpg",
+    "clicked": false
+  }
+]
